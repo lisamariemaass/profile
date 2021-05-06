@@ -13,7 +13,7 @@ body {
 h1 {
   color: white;
   font
-    text-align: center;
+  text-align: center;
 }
 
 h2 {
@@ -87,10 +87,10 @@ a:hover {
   padding-left: 0px;
 }
 
-@media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
   .container {
-    width: 300px;
+    width: 700px;
   }
 }
 @media (max-width: 720px) {
@@ -99,9 +99,9 @@ a:hover {
     width: 500px;
   }
 }
-@media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
   .container {
-    width: 700px;
+    width: 300px;
   }
 }
